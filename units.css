@@ -1,0 +1,23 @@
+.main-text {
+   color: darkviolet;
+   font-size: 0.5cm;
+}
+
+.main-text1 {
+    color:brown;
+    font-size: 5mm;
+}
+
+.main-text2 {
+    color:chartreuse;
+    font-size: 1in;
+}
+
+.container .main-text3 {
+    font-size:px;
+}
+
+.main-text3 {
+    color:gold;
+    width:24vw;
+}

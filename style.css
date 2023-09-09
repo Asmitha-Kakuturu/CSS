@@ -1,0 +1,15 @@
+.container .redText {
+  color: red;
+}
+div + h1{
+  color:cornflowerblue;
+}
+.myText1 + .myText2 {
+  color:blueviolet;
+}
+.myText0 ~ .myText2 {
+  color: brown;
+}
+input[type="text"], input[type="email"] {
+  border: 2px solid green;
+}

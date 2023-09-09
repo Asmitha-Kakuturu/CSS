@@ -1,0 +1,9 @@
+@font-face {
+     font-family: 'Oswald';
+     src: url(static/Oswald-Regular.ttf);
+}
+
+.parent h1, .parent h2 , .parent h3 {
+     font-family: 'Oswald';
+     color: cornflowerblue;
+}

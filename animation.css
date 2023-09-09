@@ -1,0 +1,43 @@
+@keyframes pulse {
+    0%, 100% {
+       left: 0px;
+       top: 0px;
+       background-color:aqua;
+    }
+    25% {
+        left: 200px;
+        top: 0px;
+        background-color: crimson;
+    }
+    50% {
+        left: 200px;
+        top: 200px;
+        background-color: chartreuse;
+        border-radius: 100px;
+    }
+    75% {
+        left: 0px;
+        top: 200px;
+        background-color: black;
+    }
+
+}
+
+
+
+.box {
+    width: 120px;
+    height: 120px;
+    background-color:darkblue;
+
+    position: relative;
+
+    animation-name: pulse;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-direction: alternate;
+
+    /* animation:pulse 2s ease infinte 1s ; */
+}
